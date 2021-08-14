@@ -3,7 +3,7 @@ orbs:
   ruby: circleci/ruby@1.1.2
   heroku: circleci/heroku@1.2.3
 
-jobs
+jobs:
   build:
     docker:
       - image: circleci/ruby:2.7
